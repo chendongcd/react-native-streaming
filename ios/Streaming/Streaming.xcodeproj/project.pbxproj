@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7727DA51209048F20002680B /* AlivcParamModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727DA50209048F20002680B /* AlivcParamModel.m */; };
+		7727DA62209059830002680B /* RCTHorStreaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727DA5E209059820002680B /* RCTHorStreaming.m */; };
+		7727DA63209059830002680B /* RCTHorStreamingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7727DA5F209059820002680B /* RCTHorStreamingManager.m */; };
+		77D76517207A1955002EF364 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D76515207A1955002EF364 /* ZFBrightnessView.m */; };
+		77D7651B207A1975002EF364 /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D76519207A1974002EF364 /* UIWindow+CurrentViewController.m */; };
+		F6811FBD1F9883A50072B3C7 /* RCTPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6811FBC1F9883A50072B3C7 /* RCTPlayerManager.m */; };
+		F6811FC01F9883B60072B3C7 /* RCTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6811FBF1F9883B60072B3C7 /* RCTPlayer.m */; };
+		F68CAD3C1F97081300ACDEFB /* RCTStreamingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F68CAD3B1F97081300ACDEFB /* RCTStreamingManager.m */; };
+		F6D69E691F9596710069D33D /* RCTStreaming.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D69E681F9596710069D33D /* RCTStreaming.m */; };
+		F6D69E6A1F9596710069D33D /* RCTStreaming.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6D69E671F9596710069D33D /* RCTStreaming.h */; };
+		F6E6E4E81FFCD0D800D7CA2B /* UIViewController+PlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E6E4E61FFCD0D700D7CA2B /* UIViewController+PlayerRotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6D69E621F9596710069D33D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F6D69E6A1F9596710069D33D /* RCTStreaming.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7727DA4F209048F20002680B /* AlivcParamModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlivcParamModel.h; sourceTree = "<group>"; };
+		7727DA50209048F20002680B /* AlivcParamModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlivcParamModel.m; sourceTree = "<group>"; };
+		7727DA5E209059820002680B /* RCTHorStreaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHorStreaming.m; sourceTree = "<group>"; };
+		7727DA5F209059820002680B /* RCTHorStreamingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHorStreamingManager.m; sourceTree = "<group>"; };
+		7727DA60209059830002680B /* RCTHorStreamingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHorStreamingManager.h; sourceTree = "<group>"; };
+		7727DA61209059830002680B /* RCTHorStreaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHorStreaming.h; sourceTree = "<group>"; };
+		77D76513207A1954002EF364 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		77D76514207A1954002EF364 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		77D76515207A1955002EF364 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		77D76516207A1955002EF364 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		77D76519207A1974002EF364 /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
+		77D7651A207A1974002EF364 /* UIWindow+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentViewController.h"; sourceTree = "<group>"; };
+		F6811FBB1F9883A50072B3C7 /* RCTPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPlayerManager.h; sourceTree = "<group>"; };
+		F6811FBC1F9883A50072B3C7 /* RCTPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPlayerManager.m; sourceTree = "<group>"; };
+		F6811FBE1F9883B60072B3C7 /* RCTPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPlayer.h; sourceTree = "<group>"; };
+		F6811FBF1F9883B60072B3C7 /* RCTPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPlayer.m; sourceTree = "<group>"; };
+		F68CAD3A1F97081300ACDEFB /* RCTStreamingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTStreamingManager.h; sourceTree = "<group>"; };
+		F68CAD3B1F97081300ACDEFB /* RCTStreamingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTStreamingManager.m; sourceTree = "<group>"; };
+		F6D69E641F9596710069D33D /* libStreaming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStreaming.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D69E671F9596710069D33D /* RCTStreaming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTStreaming.h; sourceTree = "<group>"; };
+		F6D69E681F9596710069D33D /* RCTStreaming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTStreaming.m; sourceTree = "<group>"; };
+		F6E6E4E61FFCD0D700D7CA2B /* UIViewController+PlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PlayerRotation.m"; sourceTree = "<group>"; };
+		F6E6E4E71FFCD0D700D7CA2B /* UIViewController+PlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PlayerRotation.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6D69E611F9596710069D33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D76512207A1932002EF364 /* PlayerCategory */ = {
+			isa = PBXGroup;
+			children = (
+				77D76518207A195D002EF364 /* Category */,
+				77D76513207A1954002EF364 /* ZFBrightnessView.h */,
+				77D76515207A1955002EF364 /* ZFBrightnessView.m */,
+				77D76516207A1955002EF364 /* ZFPlayer.bundle */,
+				77D76514207A1954002EF364 /* ZFPlayer.h */,
+			);
+			path = PlayerCategory;
+			sourceTree = "<group>";
+		};
+		77D76518207A195D002EF364 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				77D7651A207A1974002EF364 /* UIWindow+CurrentViewController.h */,
+				77D76519207A1974002EF364 /* UIWindow+CurrentViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F6811FBA1F9883840072B3C7 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				77D76512207A1932002EF364 /* PlayerCategory */,
+				F6811FBB1F9883A50072B3C7 /* RCTPlayerManager.h */,
+				F6811FBC1F9883A50072B3C7 /* RCTPlayerManager.m */,
+				F6811FBE1F9883B60072B3C7 /* RCTPlayer.h */,
+				F6811FBF1F9883B60072B3C7 /* RCTPlayer.m */,
+				F6E6E4E71FFCD0D700D7CA2B /* UIViewController+PlayerRotation.h */,
+				F6E6E4E61FFCD0D700D7CA2B /* UIViewController+PlayerRotation.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		F6D69E5B1F9596710069D33D = {
+			isa = PBXGroup;
+			children = (
+				F6811FBA1F9883840072B3C7 /* Player */,
+				F6D69E661F9596710069D33D /* Streaming */,
+				F6D69E651F9596710069D33D /* Products */,
+				F6D69E961F95A1810069D33D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6D69E651F9596710069D33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D69E641F9596710069D33D /* libStreaming.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D69E661F9596710069D33D /* Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				7727DA61209059830002680B /* RCTHorStreaming.h */,
+				7727DA5E209059820002680B /* RCTHorStreaming.m */,
+				7727DA60209059830002680B /* RCTHorStreamingManager.h */,
+				7727DA5F209059820002680B /* RCTHorStreamingManager.m */,
+				F68CAD3A1F97081300ACDEFB /* RCTStreamingManager.h */,
+				F68CAD3B1F97081300ACDEFB /* RCTStreamingManager.m */,
+				F6D69E671F9596710069D33D /* RCTStreaming.h */,
+				F6D69E681F9596710069D33D /* RCTStreaming.m */,
+				7727DA4F209048F20002680B /* AlivcParamModel.h */,
+				7727DA50209048F20002680B /* AlivcParamModel.m */,
+			);
+			path = Streaming;
+			sourceTree = "<group>";
+		};
+		F6D69E961F95A1810069D33D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6D69E631F9596710069D33D /* Streaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D69E6D1F9596710069D33D /* Build configuration list for PBXNativeTarget "Streaming" */;
+			buildPhases = (
+				F6D69E601F9596710069D33D /* Sources */,
+				F6D69E611F9596710069D33D /* Frameworks */,
+				F6D69E621F9596710069D33D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Streaming;
+			productName = Streaming;
+			productReference = F6D69E641F9596710069D33D /* libStreaming.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6D69E5C1F9596710069D33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Seatell;
+				TargetAttributes = {
+					F6D69E631F9596710069D33D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6D69E5F1F9596710069D33D /* Build configuration list for PBXProject "Streaming" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6D69E5B1F9596710069D33D;
+			productRefGroup = F6D69E651F9596710069D33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D69E631F9596710069D33D /* Streaming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6D69E601F9596710069D33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E6E4E81FFCD0D800D7CA2B /* UIViewController+PlayerRotation.m in Sources */,
+				7727DA62209059830002680B /* RCTHorStreaming.m in Sources */,
+				77D76517207A1955002EF364 /* ZFBrightnessView.m in Sources */,
+				F6811FC01F9883B60072B3C7 /* RCTPlayer.m in Sources */,
+				F68CAD3C1F97081300ACDEFB /* RCTStreamingManager.m in Sources */,
+				77D7651B207A1975002EF364 /* UIWindow+CurrentViewController.m in Sources */,
+				7727DA51209048F20002680B /* AlivcParamModel.m in Sources */,
+				F6D69E691F9596710069D33D /* RCTStreaming.m in Sources */,
+				7727DA63209059830002680B /* RCTHorStreamingManager.m in Sources */,
+				F6811FBD1F9883A50072B3C7 /* RCTPlayerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6D69E6B1F9596710069D33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6D69E6C1F9596710069D33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D69E6E1F9596710069D33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U23B6NHN5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../../ios/Pods/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../../../../ios/Pods/Headers/Public/SDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6D69E6F1F9596710069D33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U23B6NHN5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../../ios/Pods/Headers/Public/Masonry\"",
+					"\"$(SRCROOT)/../../../../ios/Pods/Headers/Public/SDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6D69E5F1F9596710069D33D /* Build configuration list for PBXProject "Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D69E6B1F9596710069D33D /* Debug */,
+				F6D69E6C1F9596710069D33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D69E6D1F9596710069D33D /* Build configuration list for PBXNativeTarget "Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D69E6E1F9596710069D33D /* Debug */,
+				F6D69E6F1F9596710069D33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6D69E5C1F9596710069D33D /* Project object */;
+}
