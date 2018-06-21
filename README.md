@@ -1,9 +1,9 @@
 
-# react-native-react-native-streaming
+# react-native-streaming
 
 ## Getting started
 
-`$ npm install -native-streaming --save`
+`$ npm install react-native-streaming --save`
 
 ### Mostly automatic installation
 
@@ -16,38 +16,9 @@
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-streaming` ➜ `ios` ➜ `Streaming` and add `Streaming.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNReactNativeStreaming.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+3. In XCode, in the project navigator, select your project. Add `Streaming.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
+
 4. Run your project (`Cmd+R`)<
 
-#### Android
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNReactNativeStreamingPackage;` to the imports at the top of the file
-  - Add `new RNReactNativeStreamingPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-react-native-streaming'
-  	project(':react-native-react-native-streaming').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-react-native-streaming/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-react-native-streaming')
-  	```
-
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNReactNativeStreaming.sln` in `node_modules/react-native-react-native-streaming/windows/RNReactNativeStreaming.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using React.Native.Streaming.RNReactNativeStreaming;` to the usings at the top of the file
-  - Add `new RNReactNativeStreamingPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
-## Usage
-```javascript
-import RNReactNativeStreaming from 'react-native-react-native-streaming';
-
-// TODO: What to do with the module?
-RNReactNativeStreaming;
-```
   
